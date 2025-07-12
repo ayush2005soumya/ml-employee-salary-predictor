@@ -1,0 +1,56 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*background-image: url('../assets/images/result-bg.jpg'); /* Optional background */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.result-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    animation: fadeInUp 0.8s ease-out;
+    max-width: 500px;
+    width: 90%;
+}
+
+.result-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.result-card button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.result-card button:hover {
+    background-color: #357ab7;
+}
+
+/* Optional fade-in animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/images/large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Form wrapper */
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Grid with two columns and 20px gap */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Each field container (label) styled the same */
+.form-grid label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Input and select styling */
+.form-grid input,
+.form-grid select {
+    margin-top: 8px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.form-button-container {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-button-container button {
+    padding: 10px 24px;
+    font-size: 16px;
+    border: none;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button-container button:hover {
+    background-color: #357ab7;
+}
+
+.salary-bars {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    height: 100px;
+}
+
+.salary-bars div {
+    width: 20px;
+    background: #4caf50;
+    animation: growBar 1.2s ease-in-out infinite alternate;
+    border-radius: 5px;
+}
+.form-grid select {
+    pointer-events: auto; /* ✅ re-enable interaction */
+}
+

@@ -1,0 +1,16 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore model weights and binaries
+*.pkl
+*.h5
+
+# Ignore datasets
+data/
+*.csv
+*.xlsx
+*.parquet
+
+**/node_modules/
+**/db.txt

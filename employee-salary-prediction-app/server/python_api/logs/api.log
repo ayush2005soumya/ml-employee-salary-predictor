@@ -1,0 +1,18 @@
+2025-07-13 01:32:04,987 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 01:32:04,987 - [33mPress CTRL+C to quit[0m
+2025-07-13 01:32:04,988 -  * Restarting with stat
+2025-07-13 01:32:06,577 -  * Debugger is active!
+2025-07-13 01:32:06,580 -  * Debugger PIN: 120-943-453
+2025-07-13 01:34:12,416 - Input received: {'age': '40', 'workclass': 'Private', 'educationNum': '13', 'maritalStatus': 'Married-civ-spouse', 'occupation': 'Prof-specialty', 'relationship': 'Own-child', 'race': 'White', 'sex': 'Male', 'hoursPerWeek': '45', 'capitalGain': '10000', 'capitalLoss': '0', 'nativeCountry': 'United-States', 'fnlwgt': '287459', 'education': 'Bachelors'}
+2025-07-13 01:34:14,894 - Best model: Gradient Boosting, Prediction: >50K, Confidence: 0.9288394426077178
+2025-07-13 01:34:14,895 - 127.0.0.1 - - [13/Jul/2025 01:34:14] "POST /predict HTTP/1.1" 200 -
+2025-07-13 01:36:28,624 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 01:36:28,624 - [33mPress CTRL+C to quit[0m
+2025-07-13 01:36:28,625 -  * Restarting with stat
+2025-07-13 01:36:30,245 -  * Debugger is active!
+2025-07-13 01:36:30,248 -  * Debugger PIN: 120-943-453
+2025-07-13 01:37:34,249 - Input received: {'age': '47', 'workclass': 'State-gov', 'educationNum': '14', 'maritalStatus': 'Married-civ-spouse', 'occupation': 'Exec-managerial', 'relationship': 'Husband', 'race': 'White', 'sex': 'Male', 'hoursPerWeek': '45', 'capitalGain': '15247', 'capitalLoss': '1245', 'nativeCountry': 'United-States', 'fnlwgt': '258749', 'education': 'Masters'}
+2025-07-13 01:37:36,645 - Best model: Gradient Boosting, Prediction: >50K, Confidence: 0.9277122855440113
+2025-07-13 01:37:36,646 - 127.0.0.1 - - [13/Jul/2025 01:37:36] "POST /predict HTTP/1.1" 200 -

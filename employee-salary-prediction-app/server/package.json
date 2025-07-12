@@ -1,0 +1,24 @@
+{
+  "name": "employee-salary-prediction-app",
+  "version": "1.0.0",
+  "description": "A web application for predicting employee salaries using machine learning models.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.18.0",
+    "axios": "^1.10.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Ayush Chatterjee",
+  "license": "MIT"
+}
