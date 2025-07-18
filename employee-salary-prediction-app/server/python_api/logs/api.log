@@ -16,3 +16,21 @@
 2025-07-13 01:37:34,249 - Input received: {'age': '47', 'workclass': 'State-gov', 'educationNum': '14', 'maritalStatus': 'Married-civ-spouse', 'occupation': 'Exec-managerial', 'relationship': 'Husband', 'race': 'White', 'sex': 'Male', 'hoursPerWeek': '45', 'capitalGain': '15247', 'capitalLoss': '1245', 'nativeCountry': 'United-States', 'fnlwgt': '258749', 'education': 'Masters'}
 2025-07-13 01:37:36,645 - Best model: Gradient Boosting, Prediction: >50K, Confidence: 0.9277122855440113
 2025-07-13 01:37:36,646 - 127.0.0.1 - - [13/Jul/2025 01:37:36] "POST /predict HTTP/1.1" 200 -
+2025-07-13 15:56:44,039 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-13 15:56:44,066 - [33mPress CTRL+C to quit[0m
+2025-07-13 15:56:44,067 -  * Restarting with stat
+2025-07-13 15:56:45,684 -  * Debugger is active!
+2025-07-13 15:56:45,690 -  * Debugger PIN: 120-943-453
+2025-07-13 16:06:46,775 - Input received: {'age': '50', 'workclass': 'State-gov', 'educationNum': '14', 'maritalStatus': 'Never-married', 'occupation': 'Exec-managerial', 'relationship': 'Own-child', 'race': 'White', 'sex': 'Male', 'hoursPerWeek': '45', 'capitalGain': '12000', 'capitalLoss': '300', 'nativeCountry': 'India', 'fnlwgt': '524789', 'education': 'Masters'}
+2025-07-13 16:06:49,561 - Best model: Gradient Boosting, Prediction: >50K, Confidence: 0.8496614615084518
+2025-07-13 16:06:49,562 - 127.0.0.1 - - [13/Jul/2025 16:06:49] "POST /predict HTTP/1.1" 200 -
+2025-07-15 20:21:54,283 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 20:21:54,284 - [33mPress CTRL+C to quit[0m
+2025-07-15 20:21:54,285 -  * Restarting with stat
+2025-07-15 20:21:55,715 -  * Debugger is active!
+2025-07-15 20:21:55,721 -  * Debugger PIN: 120-943-453
+2025-07-15 20:31:20,648 - Input received: {'age': '45', 'workclass': 'State-gov', 'educationNum': '13', 'maritalStatus': 'Married-civ-spouse', 'occupation': 'Machine-op-inspct', 'relationship': 'Husband', 'race': 'Black', 'sex': 'Male', 'hoursPerWeek': '50', 'capitalGain': '10032', 'capitalLoss': '30', 'nativeCountry': 'United-States', 'fnlwgt': '257894', 'education': 'Bachelors'}
+2025-07-15 20:31:22,767 - Best model: Gradient Boosting, Prediction: >50K, Confidence: 0.9294413512377481
+2025-07-15 20:31:22,768 - 127.0.0.1 - - [15/Jul/2025 20:31:22] "POST /predict HTTP/1.1" 200 -

@@ -1,0 +1,11 @@
+Flask
+Flask-Cors
+gunicorn
+sqlalchemy
+psycopg2-binary
+scikit-learn
+pandas
+numpy
+joblib
+tensorflow
+keras
